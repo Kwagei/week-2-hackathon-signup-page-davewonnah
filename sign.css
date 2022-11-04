@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image: url(./bg-image.png);
+    background-color: #ff7978;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.one{
+    width: 900px;
+    height: 600px;
+}
+.one h1{
+    text-align: left;
+    margin-top: 250px;
+    margin-left: 150px;
+    font-size: 50px;
+    color: white;
+}
+.one p{
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;   
+}
+.two{
+    width: 850px;
+}
+.butn{
+    width: 260px;
+    height: 40px;
+    margin-top: 70px;
+}
+.butn button{
+    padding: 25px;
+    width: 532px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color:#5e54a3;
+    font-size: 18px;
+
+}
+.input1{
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 14px;
+
+    
+}
+.input1 input{
+    width: 400px;
+    margin-top: 10px;
+    padding: 22px;
+    border-radius: 10px;
+    font-size: 12px;
+    border-color: #c6c4d4;
+    border-width: -20px;
+    box-shadow: whitesmoke;
+}
+.botn1 button{
+    padding: 30px;
+    width: 455px;
+    height: 1px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color:#36cd8a;
+    
+}
+.end p{
+    margin-top: 10px;
+    margin-left: 25px;
+    color: gray;
+    
+}
+.end p a{
+    color: red;
+    text-decoration: solid;
+}
